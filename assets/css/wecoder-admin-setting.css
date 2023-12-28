@@ -1,0 +1,417 @@
+/* Header CSS */
+.wbcom-wrap {
+    margin: 30px 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+}
+
+.wbcom_admin_header-wrapper {
+    background: #E1E6F4;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    padding: 25px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#wb_admin_plugin_name {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    color: #000;
+    align-items: center;
+}
+
+/* Content CSS */
+.wbcom-admin-settings-page {
+    background: #fff;
+    padding: 30px 30px 35px;
+    display: flex;
+    overflow: hidden;
+}
+
+.wbcom-tabs-section {
+    background: #E1E6F4;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 18%;
+    padding: 1%;
+}
+
+.wbcom-admin-settings-page .wbcom-tab-content {
+    width: 81%;
+    background: #fff;
+    padding-left: 30px;
+}
+
+.wbcom-admin-settings-page .nav-tab-wrapper,
+.wrap .wbcom-admin-settings-page h2.nav-tab-wrapper,
+.wbcom-admin-settings-page h1.nav-tab-wrapper {
+    padding-top: 0;
+    padding-bottom: 100px;
+    margin: 0;
+    border-bottom: 0;
+}
+
+.wb-responsive-menu {
+    margin: 0;
+    height: 50px;
+    display: none;
+    color: #1d2327;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 15px;
+    overflow: hidden;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.wbcom-admin-settings-page .nav-tab-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wbcom-admin-settings-page .nav-tab-wrapper ul li {
+    margin: 0 0 2px;
+}
+
+.wbcom-admin-settings-page .nav-tab-wrapper .nav-tab {
+    float: none;
+    display: block;
+    border: 0;
+    border: none;
+    margin: 0;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    white-space: normal;
+    background: transparent;
+    color: #041137;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.wbcom-admin-settings-page .nav-tab-wrapper .nav-tab-active,
+.wbcom-admin-settings-page .nav-tab-wrapper .nav-tab:hover,
+.wbcom-admin-settings-page .nav-tab-active:focus,
+.wbcom-admin-settings-page .nav-tab-active:focus:active,
+.wbcom-admin-settings-page .nav-tab-active:hover {
+    color: #2a32ef;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 12px 30px rgba(53, 66, 134, 0.12);
+    box-shadow: 0px 12px 30px rgba(53, 66, 134, 0.12);
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.wbcom-admin-title-section h3,
+h4.wbcom-support-section {
+    margin-top: 0;
+    color: #2A32EF;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.wbcom-admin-option-wrap {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 30px;
+    box-shadow: none;
+    background: #F6F7FE;
+    font-size: 15px;
+    line-height: 2.1em;
+    overflow: hidden;
+    border-radius: 12px;
+    width: auto;
+}
+
+.wbcom-admin-option-wrap .form-table {
+    margin: 0;
+}
+
+.wbcom-settings-section-wrap {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(200, 197, 218, 0.30);
+    box-shadow: 5px 5px 20px rgba(32, 53, 85, 0.10);
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: auto;
+}
+
+.wbcom-settings-section-options-heading {
+    border-bottom: 1px solid rgba(200, 197, 218, 0.50);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    line-height: 1.6;
+}
+
+.wbcom-settings-section-options-heading label {
+    color: #1d2327;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.wbcom-tab-content p.description {
+    color: #49505a;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    padding-top: 3px;
+}
+
+.wb-switch {
+    display: inline-block;
+    border: none !important;
+    position: relative;
+    line-height: 0;
+    height: 32px;
+    width: 70px;
+    min-width: 70px;
+    box-shadow: none;
+}
+
+.wbcom-admin-option-wrap .form-table input[type=checkbox]:checked {
+    background-color: #4fb845;
+}
+
+.wbcom-admin-option-wrap .form-table input[type=checkbox] {
+    border: none !important;
+    border-radius: 8px;
+    background: #ed6f6f;
+    position: relative;
+    line-height: 0;
+    height: 32px;
+    width: 70px;
+    min-width: 70px;
+    box-shadow: none;
+}
+
+.wb-switch input {
+    display: none;
+}
+
+.wb-switch input:checked+.wb-slider {
+    background-color: #4fb845;
+}
+
+.wb-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    background: #ed6f6f;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.wb-switch input:checked+.wb-slider:before {
+    -webkit-transform: translateX(33px);
+    -ms-transform: translateX(33px);
+    transform: translateX(33px);
+    background-color: #ffffff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.wb-slider:before {
+    content: "";
+    bottom: 4px;
+    position: absolute;
+    top: 6px;
+    left: 6px !important;
+    width: 24px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: all .3s;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 35%);
+}
+
+.wbcom-admin-option-wrap .form-table input[type=checkbox]:checked::after,
+.wb-switch input:checked+.wb-slider::after {
+    content: "ON";
+    right: unset;
+    left: 10px;
+}
+
+.wbcom-admin-option-wrap .form-table input[type=checkbox]:after,
+.wbcom-admin-option-wrap .form-table input[type=checkbox]:checked::after,
+.wb-slider.wb-round::after {
+    content: "OFF";
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 16px;
+    right: 11px;
+}
+
+.wbcom-admin-settings-page .wbcom-tab-content .button.button-primary:not(.button-welcome-support) {
+    line-height: 55px;
+    padding: 0 45px;
+    font-size: 15px;
+    background: #2a32ef;
+    text-shadow: none;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.3s;
+    box-shadow: 0px 10px 25px rgba(32, 53, 85, 0.35);
+    border-radius: 12px;
+}
+
+
+/* Hash tag table */
+
+form.hashtags-logs-search p.search-box.hashtags-search-box {
+    background: #fff;
+    float: left;
+    clear: both;
+    display: block;
+    padding: 0;
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    margin: 0;
+}
+
+form.hashtags-logs-search p.search-box.hashtags-search-box input[type=search] {
+    -webkit-appearance: textfield;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border-color: #ccc;
+}
+
+.hashtags-logs-search .wbcom-settings-section-wrap {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.wbcom-settings-section-wrap {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(200, 197, 218, 0.30);
+    box-shadow: 5px 5px 20px rgba(32, 53, 85, 0.10);
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: auto;
+}
+
+form.hashtags-logs-search p.search-box input#search-submit {
+    padding: 6px 20px;
+    border: none;
+    border-radius: 0px 6px 6px 0;
+    background: #2094f3;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.screen-reader-text,
+.screen-reader-text span,
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+p.warning-msg {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 600;
+    font-weight: 13px;
+}
+
+.wbcom-admin-option-wrap.wbcom-admin-option-wrap-view table.form-table tr {
+    background: #fff;
+    border-radius: 12px;
+    padding: 5px;
+    border: 1px solid rgba(200, 197, 218, 0);
+    overflow: hidden;
+    border-bottom: 20px solid #f6f7fe;
+    width: 100%;
+}
+
+.wbcom-admin-option-wrap .form-table th,
+.wbcom-admin-option-wrap .form-table td {
+    padding: 20px !important;
+}
+
+/* Hashtag pagination */
+
+.hashtags-pagination {
+    margin: 15px 0;
+    text-align: right;
+}
+
+.hashtags-pagination .page-numbers.current,
+.hashtags-pagination .page-numbers:hover {
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+}
+
+.hashtags-pagination .page-numbers {
+    color: #a7aaad;
+    border-color: #dcdcde;
+    background: #f6f7f7;
+    box-shadow: none;
+    cursor: default;
+    transform: none;
+}
+
+.hashtags-pagination .page-numbers {
+    text-align: center;
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 30px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 3px;
+    padding: 0px 12px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 14px;
+}
